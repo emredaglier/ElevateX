@@ -35,8 +35,5 @@ window.addEventListener("resize", handleResize);
 
 // Initial classes for large screens
 if (window.innerWidth > 1047) {
-  hamMenu.classList.add("def");
-  offScreenMenu.classList.add("def");
-  headerLogo.classList.add("def");
 
 }

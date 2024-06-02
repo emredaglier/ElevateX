@@ -1,6 +1,5 @@
 const hamMenu = document.querySelector(".ham-menu");
 const offScreenMenu = document.querySelector(".off-screen-menu");
-const headerLogo = document.querySelector(".header-logo");
 const dropdownLogo = document.querySelector(".dropdown-logo");
 const webLogo = document.querySelector(".web-logo");
 
@@ -15,7 +14,8 @@ function handleResize() {
     hamMenu.removeEventListener("click", toggleMenu);
     hamMenu.classList.remove("active");
     offScreenMenu.classList.remove("active");
-    headerLogo.classList.remove("active");
+    dropdownLogo.classList.remove("active");
+    webLogo.classList.remove("active");
   }
 }
 
@@ -23,7 +23,6 @@ function handleResize() {
 function toggleMenu() {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
-  headerLogo.classList.toggle("active");
   dropdownLogo.classList.toggle("active")
   webLogo.classList.toggle("active")
 }
@@ -39,4 +38,5 @@ if (window.innerWidth > 1047) {
   hamMenu.classList.add("def");
   offScreenMenu.classList.add("def");
   headerLogo.classList.add("def");
+
 }

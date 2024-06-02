@@ -17,6 +17,13 @@ function handleResize() {
     dropdownLogo.classList.remove("active");
     webLogo.classList.remove("active");
   }
+
+  if (window.innerHeight >= 1000 ){
+    offScreenMenu.classList.add("height");
+  }
+  else{
+    offScreenMenu.classList.remove("height");
+  }
 }
 
 // Toggle function to add or remove active classes

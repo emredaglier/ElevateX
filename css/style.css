@@ -153,6 +153,7 @@ a {
 .container-aadS > .header-nav > nav > a {
   margin: 16px;
 
+
 }
 
 .container-jGtl {
@@ -164,10 +165,11 @@ a {
 
 .off-screen-menu {
   background-color: var(--accent);
+  padding-top: 150px;
   height: 75vh;
   width: 100%;
   position: fixed;
-  top: -800px;
+  top: -1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -175,15 +177,21 @@ a {
   text-align: center;
   font-size: 3rem;
   transition: .3s ease;
+  overflow-y: auto;
 }
 
 .off-screen-menu > a {
   color: var(--white);
   margin-bottom: 24px;
+  font-size: 2rem;
 }
 
 .off-screen-menu.active {
   top: 0;
+}
+
+.off-screen-menu.height{
+  height: 50vh;
 }
 
 .ham-menu {

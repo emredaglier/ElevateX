@@ -15,15 +15,17 @@
     padding-right: 40px;
 
   }
-  .page-nav-container > .page-header > .container > .header-nav{
+  .container-aadS > .header-nav{
     visibility: hidden;
 
   }
-  .page-nav-container > .page-header > .container > .container > .container {
-    display: inherit;
-  }
-  .page-nav-container > .page-header > .container > .container > .arrow-button {
+
+  .container-kJgl > .arrow-button {
     display: none;
+  }
+
+  .ham-menu{
+    display: inherit;
   }
 
 }
@@ -35,6 +37,7 @@
     padding-right: 80px;
 
   }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

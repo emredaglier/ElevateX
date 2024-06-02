@@ -38,11 +38,20 @@
 <body>
 
   <div class="page">
+    <div class="off-screen-menu">
+      <a href="#">Services</a>
+      <a href="#">Pricing</a>
+      <a href="#">Products</a>
+      <a href="#">Resources</a>
+      <a href="#">Company</a>
+
+    </div>
     <div class="page-nav-container flex flex-ai" data-aos="fade-down" data-aos-duration="800">
       <header class="page-header">
         <div class="container container-aadS flex-r flex-sb flex-ai">
           <div class="header-logo">
-            <img src="/img/header-logo.png" alt="ElevateX Logo">
+            <img class="dropdown-logo" src="/img/header-logo-w.png" alt="ElevateX Logo White">
+            <img class="web-logo" src="/img/header-logo.png" alt="ElevateX Logo">
           </div>
           <div class="header-nav">
             <nav>
@@ -55,17 +64,28 @@
           </div>
           <div class="container container-kJgl">
             <button class="arrow-button">Login<span class="arrow"></span></button>
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
 
           </div>
         </div>
       </header>
+
     </div>
+
   </div>
 
 
   <script src="js/aos.js"></script>
+  <script src="js/app.js"></script>
   <script>
     AOS.init();
+  </script>
+
+  <script>
   </script>
 </body>
 

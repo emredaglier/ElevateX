@@ -26,12 +26,10 @@
     display: none;
   }
 
-
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1048px) {
+@media only screen and (min-width: 1047px) {
   .page-nav-container > .page-header{
     padding-left: 80px;
     padding-right: 80px;

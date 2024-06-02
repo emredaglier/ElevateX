@@ -84,76 +84,38 @@ a{
   width: 100%;
 }
 
-.page-nav-container > .page-header > .container > .header-logo{
+.container-aadS > .header-logo{
   display: flex;
   max-width: 160px;
 
 }
 
-.page-nav-container > .page-header > .container > .header-logo > img{
+.container-aadS > .header-logo > img{
   width: 100%;
   object-fit: contain;
 
 }
 
-.page-nav-container > .page-header > .container > .header-nav{
+.container-aadS > .header-nav{
   display: flex;
   font-size: 16px;
   visibility: visible;
 }
 
-.page-nav-container > .page-header > .container > .header-nav > nav > a{
+.container-aadS > .header-nav > nav > a{
   margin: 16px;
 
 }
 
-.page-nav-container > .page-header > .container > .container > .container {
+.container-jGtl{
   display: none;
 
 }
 
-.page-nav-container > .page-header > .container > .container > .container > .checkbox {
-  display: block;
-  height: 32px;
-  width: 32px;
-  top: 20px;
-  left: 20px;
-  z-index: 5;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.page-nav-container > .page-header > .container > .container > .container > .hamburger-lines {
-  position: relative;
-  display: block;
-  height: 26px;
-  width: 32px;
-  top: 6px;
-  right: 36px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.page-nav-container > .page-header > .container > .container > .container > .hamburger-lines > .line {
-  display: block;
-  height: 4px;
-  width: 100%;
-  border-radius: 10px;
-  background: #0e2431;
-}
+/*---------------------*/
 
 
-
-
-
-
-
-
-
-
-
+awsrgfasdfsaddf
 
 
 

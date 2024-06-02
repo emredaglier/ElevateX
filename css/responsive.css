@@ -9,7 +9,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 1047px) {
+@media only screen and (max-width: 1054px) {
   .page-nav-container > .page-header{
     padding-left: 40px;
     padding-right: 40px;
@@ -31,10 +31,16 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1047px) {
+@media only screen and (min-width: 1055px) {
   .page-nav-container > .page-header{
     padding-left: 80px;
     padding-right: 80px;
+
+  }
+
+  .dropdown-content {
+    left: 80px;
+    right: 80px;
 
   }
 
@@ -45,6 +51,11 @@
   .page-nav-container > .page-header{
     padding-left: 160px;
     padding-right: 160px;
+
+  }
+  .dropdown-content {
+    left: 160px;
+    right: 160px;
 
   }
 }

@@ -1,7 +1,7 @@
 :root{
   --accent: #750E21;
   --purple: #331D2C;
-  --while: #FAFAFA;
+  --white: #FAFAFA;
   --black: #111111;
   --gray: #2B2B2B;
 }
@@ -9,7 +9,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #fafafa;
+  background-color: var(--white);
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -31,7 +31,7 @@ body{
 .f-sb {font-weight: 600;}
 .f-b {font-weight: 700;}
 
-.f-w {color: #fafafa;}
+.f-w {color: var(--white);}
 
 h1 {font-size: 3rem;}
 h2 {font-size: 2.625rem;}
@@ -81,8 +81,7 @@ a{
 }
 
 .page-nav-container > .page-header{
-  position: absolute;
-
+  width: 100%;
 }
 
 .page-nav-container > .page-header > .container > .header-logo{
@@ -100,7 +99,7 @@ a{
 .page-nav-container > .page-header > .container > .header-nav{
   display: flex;
   font-size: 16px;
-
+  visibility: visible;
 }
 
 .page-nav-container > .page-header > .container > .header-nav > nav > a{
@@ -108,35 +107,46 @@ a{
 
 }
 
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+.page-nav-container > .page-header > .container > .container > .container {
+  display: none;
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
+.page-nav-container > .page-header > .container > .container > .container > .checkbox {
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
+.page-nav-container > .page-header > .container > .container > .container > .hamburger-lines {
+  position: relative;
+  display: block;
+  height: 26px;
+  width: 32px;
+  top: 6px;
+  right: 36px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+.page-nav-container > .page-header > .container > .container > .container > .hamburger-lines > .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .page-nav-container .page-header{
-    padding-left: 160px;
-    padding-right: 160px;
 
-  }
-}
+
+
 
 
 

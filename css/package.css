@@ -15,14 +15,14 @@ button{
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.1s, color 0.1s;
 }
 
 button:hover{
   background-color: var(--accent);
   color: var(--white);
   .arrow{
-    transition: 0.3s;
+    transition: 0.1s;
     background-image: url('/img/icon-w.svg');
   }
 }
@@ -43,6 +43,16 @@ button:hover{
   height: 8px;
   display: inline-block;
   background-image: url('/img/selector.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.selector-w{
+  display: inline-block;
+  position: relative;
+  height: 42px;
+  width: 28px;
+  background-image: url('/img/index/selector-90def.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }

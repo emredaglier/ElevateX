@@ -9,7 +9,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 1054px) {
+@media only screen and (max-width: 1055px) {
   .page-nav-container > .page-header{
     padding-left: 40px;
     padding-right: 40px;
@@ -42,6 +42,12 @@
     left: 80px;
     right: 80px;
 
+  }
+
+  .container_ZSDA{
+    width: 100%;
+    margin-left: 24px;
+    color: var(--purple);
   }
 
 }

@@ -14,6 +14,48 @@
 html {
 }
 
+:root {
+  --accent: #750E21;
+  --purple: #331D2C;
+  --white: #FAFAFA;
+  --black: #111111;
+  --gray-50: #f9f9f9;
+  --gray-100: #ececec;
+  --gray-200: #e3e3e3;
+  --gray-300: #cdcdcd;
+  --gray-400: #b4b4b4;
+  --gray-500: #9b9b9b;
+  --gray-600: #676767;
+  --gray-700: #424242;
+  --gray-750: #2f2f2f;
+  --gray-800: #212121;
+  --gray-900: #171717;
+  --gray-950: #0d0d0d;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  color: var(--gray-400);  /* old IE */
+  background-color: var(--gray-400);  /* Modern Browsers */
+}
+
+.hr-vertical{
+  width: 1px;
+  height: 100%;
+  opacity: 0.4;
+}
+
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
   margin: 0;
   padding: 0;
@@ -44,15 +86,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 * {
   box-sizing: border-box;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
 }
 
 /*

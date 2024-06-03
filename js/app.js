@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Close the dropdown if clicked outside
   document.addEventListener('click', function(event) {
     if (!event.target.closest('.dropdown')) {
-      document.querySelectorAll('.dropdown-menu').forEach(function(menu) {
+      document.querySelectorAll('.dropdown-content').forEach(function(menu) {
         menu.classList.remove('show');
         setTimeout(function() {
           menu.style.display = 'none';

@@ -1,4 +1,4 @@
-button{
+button {
   padding-right: 24px;
   padding-left: 24px;
   padding-top: 8px;
@@ -18,10 +18,21 @@ button{
   transition: background-color 0.1s, color 0.1s;
 }
 
-button:hover{
+.b-white-outl{
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.b-white-outl:hover{
+  background-color: var(--white);
+  color: var(--purple);
+}
+
+button:hover {
   background-color: var(--accent);
   color: var(--white);
-  .arrow{
+
+  .arrow {
     transition: 0.1s;
     background-image: url('/img/icon-w.svg');
   }
@@ -37,7 +48,7 @@ button:hover{
   background-repeat: no-repeat;
 }
 
-.selector{
+.selector {
   margin-left: 10px;
   width: 12px;
   height: 8px;
@@ -47,7 +58,7 @@ button:hover{
   background-repeat: no-repeat;
 }
 
-.selector-w{
+.selector-w {
   display: inline-block;
   position: relative;
   height: 42px;

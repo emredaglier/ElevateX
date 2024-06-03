@@ -10,12 +10,13 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 1055px) {
-  .page-nav-container > .page-header{
+  .page-nav-container > .page-header {
     padding-left: 40px;
     padding-right: 40px;
 
   }
-  .container-aadS > .header-nav{
+
+  .container-aadS > .header-nav {
     visibility: hidden;
 
   }
@@ -24,7 +25,7 @@
     display: none;
   }
 
-  .ham-menu{
+  .ham-menu {
     display: inherit;
   }
 
@@ -32,7 +33,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1055px) {
-  .page-nav-container > .page-header{
+  .page-nav-container > .page-header {
     padding-left: 80px;
     padding-right: 80px;
 
@@ -44,7 +45,7 @@
 
   }
 
-  .container_ZSDA{
+  .container_ZSDA {
     width: 100%;
     margin-left: 24px;
     color: var(--purple);
@@ -52,13 +53,21 @@
 
 }
 
+@media only screen and (max-width: 1320px) {
+  .dropdown-content {
+    height: 500px;
+  }
+
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .page-nav-container > .page-header{
+  .page-nav-container > .page-header {
     padding-left: 160px;
     padding-right: 160px;
 
   }
+
   .dropdown-content {
     left: 160px;
     right: 160px;

@@ -28,6 +28,15 @@ button {
   color: var(--purple);
 }
 
+.b-white-no-out{
+  border: none;
+  color: var(--white);
+}
+.b-white-no-out:hover{
+  text-decoration: underline;
+  background-color: transparent;
+}
+
 button:hover {
   background-color: var(--accent);
   color: var(--white);

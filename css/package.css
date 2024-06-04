@@ -1,8 +1,5 @@
 button {
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 8px 24px;
   border-style: solid;
   border-radius: 0px;
   border-color: var(--accent);
@@ -16,6 +13,10 @@ button {
   display: inline-flex;
   align-items: center;
   transition: background-color 0.1s, color 0.1s;
+}
+
+.b-big{
+  padding: 12px 24px;
 }
 
 .b-accent-fill{

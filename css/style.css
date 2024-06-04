@@ -1,7 +1,7 @@
 .page {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 300vh;
 }
 
 .f-montserrat {
@@ -108,7 +108,6 @@ a {
   color: var(--purple);
   text-decoration: none;
 }
-
 
 /*-----------------------*/
 
@@ -363,20 +362,24 @@ a {
   position: absolute;
   height: 100vh;
   width: 100%;
-  background-image: url("/assest/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .container_e_qWer{
-  width: auto;
-  padding-left: 160px;
-  background-color: var(--white);
+  width: 100%;
+  padding-top: 240px;
+
+}
+
+.container_e_qWeP{
 
 }
 
 .container_e_qWeT{
-  max-width: 500px;
+  max-width: 50%;
+  padding-bottom: 36px;
+  text-align: center;
 
 }
 

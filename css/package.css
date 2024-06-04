@@ -18,6 +18,17 @@ button {
   transition: background-color 0.1s, color 0.1s;
 }
 
+.b-accent-fill{
+  border: none;
+  background-color: var(--accent);
+  color: var(--white);
+}
+
+.b-accent-fill:hover{
+  background-color: var(--accent-hover);
+
+}
+
 .b-white-outl{
   border-color: var(--white);
   color: var(--white);
@@ -37,13 +48,38 @@ button {
   background-color: transparent;
 }
 
+.b-purple-no-out{
+  border: none;
+  color: var(--purple);
+  opacity: 0.7;
+  transition: opacity 0.1s;
+}
+.b-purple-no-out:hover{
+  text-decoration: underline;
+  background-color: transparent;
+  opacity: 1;
+  color: var(--purple);
+  transition: opacity 0.1s;
+}
+
+
+
 button:hover {
   background-color: var(--accent);
   color: var(--white);
+}
 
-  .arrow {
-    transition: 0.1s;
-    background-image: url('/img/icon-w.svg');
+.b-arrow-accent:hover{
+
+  .arrow{
+    background-image: url('/assest/icon-w.svg');
+  }
+}
+
+.b-arrow-white:hover{
+
+  .arrow{
+    background-image: url('/assest/icon-w.svg');
   }
 }
 
@@ -52,17 +88,25 @@ button:hover {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url('/img/icon.svg');
+  background-image: url('/assest/icon.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
+.arrow-white{
+  transition: 0.1s;
+  background-image: url('/assest/icon-w.svg');
+}
+
+
 
 .selector {
   margin-left: 10px;
   width: 12px;
   height: 8px;
   display: inline-block;
-  background-image: url('/img/selector.svg');
+  background-image: url('/assest/selector.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -72,7 +116,7 @@ button:hover {
   position: relative;
   height: 42px;
   width: 28px;
-  background-image: url('/img/index/selector-90def.svg');
+  background-image: url('/assest/index/selector-90def.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }

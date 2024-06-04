@@ -60,6 +60,19 @@
 
 }
 
+@media only screen and (max-width: 1380px) {
+  .dropdown-content {
+    height: 500px;
+  }
+
+  .container_e_qTrY > img{
+    object-fit: fill;
+    height: 80%;
+    width: auto;
+  }
+
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .page-nav-container > .page-header {
